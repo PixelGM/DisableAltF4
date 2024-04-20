@@ -39,8 +39,17 @@ int main()
     disableAltF4(); // Disables Alt + F4 temporarily
 
     // Press any key to exit
-    std::cout << "Press any key to exit..." << std::endl;
-    _getch();
+    std::cout << "Press 'e' to exit the program..." << std::endl;
+    
+    // Press e to exit the program
+    while (true) {
+        if (_kbhit()) {
+			char key = _getch();
+            if (key == 'e') {
+				break;
+			}
+		}
+	}
 
 
     return 0;
