@@ -1,5 +1,5 @@
 # DisableAltF4
-![Screenshot](Images/Screenshot 2024-05-04_225529.png)
+![Screenshot](Images/Screenshot_2024-05-04_225529.png)
 ![Screenshot](Images/Screenshot_2024-04-24_214506.png)
 Disables Alt + F4 temporarily. **NO need to "Run as Administrator"!** :D
 
