@@ -37,9 +37,9 @@ void disableAltF4() {
 int main()
 {
     disableAltF4(); // Disables Alt + F4 temporarily
-
+    
     // Press any key to exit
-    std::cout << "Press 'e' to exit the program..." << std::endl;
+    std::cout << "Alt + F4 has been disabled. Press 'e' to exit the program." << std::endl;
     
     // Press e to exit the program
     while (true) {
